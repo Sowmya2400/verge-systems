@@ -1,0 +1,20 @@
+.herogrid {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.herogridsection {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-column-gap: 4%;
+    padding: 30px 0 0 0;
+}
+
+.heroimage {
+    padding: 25px 15px;
+    border: 1px solid grey;
+}
+
+.heroimage img {
+    max-width: 150px;
+}
