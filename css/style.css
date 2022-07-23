@@ -9687,6 +9687,10 @@ body.sidebar-open::before {
   transform: scale(1.02);
 }
 
+.techBg{
+  padding: 70px 0;
+  background-color: #f6f6f6;
+}
 
 
 
