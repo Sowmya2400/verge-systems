@@ -40,6 +40,10 @@
     text-align: center;
 }
 
+.team {
+    padding-bottom: 70px;
+}
+
 .teamContainer,
 .servicesContainer {
     padding: 0 15% 50px;
@@ -133,6 +137,9 @@
     .teamContainer,
     .servicesContainer {
         padding: 0;
+    }
+    .team {
+        padding-bottom: 40px;
     }
     .banner h1 {
         font-size: 30px;
