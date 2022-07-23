@@ -35,10 +35,106 @@
 
 /* team */
 
-.team {
+.team,
+.services {
     text-align: center;
 }
 
-.teamContainer {
+.teamContainer,
+.servicesContainer {
     padding: 0 15% 50px;
+}
+
+
+/* services */
+
+.servicesBg {
+    padding: 70px 0;
+    background-color: #F6F6F6;
+}
+
+.servicesGrid {
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-column-gap: 2.6%;
+    grid-row-gap: 20px;
+    text-align: left;
+}
+
+.servicesCard {
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    transition: all .3s ease-out;
+}
+
+.servicesCard h4 {
+    margin: 0;
+}
+
+.fa-solid:before {
+    font-size: 40px;
+}
+
+.servicesCard:hover {
+    transform: translate(0, -5px);
+    background: #fff;
+    border: 1px solid #ff0000;
+}
+
+.servicesCard:hover h4 {
+    color: #ff0000;
+}
+
+.servicesCard:hover .fa-solid:before {
+    color: #ff0000;
+}
+
+
+/*  */
+
+.banner h1 {
+    font-size: 50px;
+}
+
+.animatedH1::before {
+    content: "MOST CREATIVE";
+    animation: animate infinite 10s;
+    color: #ff0000;
+    font-weight: 100;
+}
+
+@keyframes animate {
+    33% {
+        content: "BETTER";
+    }
+    66% {
+        content: "MOST VALUABLE";
+    }
+}
+
+@media(max-width:992px) {
+    .servicesGrid {
+        grid-template-columns: 45% 45%;
+        grid-column-gap: 10%;
+    }
+    .banner h1 {
+        font-size: 40px;
+    }
+}
+
+@media(max-width:600px) {
+    .servicesGrid {
+        grid-template-columns: auto;
+    }
+    .teamContainer,
+    .servicesContainer {
+        padding: 0;
+    }
+    .banner h1 {
+        font-size: 30px;
+    }
 }
