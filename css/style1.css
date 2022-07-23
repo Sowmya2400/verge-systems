@@ -1,3 +1,16 @@
+/* title line */
+
+.tittle-line {
+    background-color: #898989;
+    display: inline-block;
+    height: 3px;
+    margin-bottom: 16px;
+    width: 60px;
+}
+
+
+/* hero grid */
+
 .herogrid {
     text-align: center;
     padding: 70px 0;
@@ -17,4 +30,15 @@
 
 .heroimage img {
     max-width: 150px;
+}
+
+
+/* team */
+
+.team {
+    text-align: center;
+}
+
+.teamContainer {
+    padding: 0 15% 50px;
 }
