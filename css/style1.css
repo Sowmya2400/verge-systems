@@ -130,10 +130,16 @@
 }
 
 .banner {
-    background-image: url("../images/hero2.1.jpg");
+    background-image: url("../images/hero.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 0 50px 0;
+    padding: 200px 0 90px 0;
+    min-height: 630px;
+    background-position: center;
+}
+
+.banner .container h1 {
+    color: #fff;
 }
 
 .navbar {
