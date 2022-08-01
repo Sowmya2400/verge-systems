@@ -155,6 +155,13 @@
     .banner h1 {
         font-size: 40px;
     }
+    .navbar .navbar-menu-wrapper .navbar-nav .btn-contact-us {
+        padding: 10px !important;
+    }
+    .navbar-collapse .pl-5,
+    .navbar-collapse .px-5 {
+        padding-left: 1rem !important;
+    }
 }
 
 @media(max-width:600px) {
@@ -170,6 +177,21 @@
     }
     .banner h1 {
         font-size: 30px;
+    }
+    .contactUsAddress {
+        text-align: left;
+        max-width: 300px;
+        margin: auto;
+    }
+    .contactUsAddressIcon {
+        display: flex;
+        align-items: baseline;
+    }
+    .contactUsAddressIcon span {
+        padding-left: 8px;
+    }
+    .contact-us .contact-us-bgimage {
+        padding: 83px 10px 68px 10px;
     }
 }
 
@@ -191,5 +213,5 @@
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
