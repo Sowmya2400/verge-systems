@@ -43,7 +43,7 @@ $(document).ready(function() {
       $("html, body").animate({
           scrollTop: $(t).offset().top - 75
       }, {
-          duration: 1000,
+          duration: 0,
       });
       $('body').scrollspy({ target: '.navbar',offset: $(t).offset().top });
       return false;
